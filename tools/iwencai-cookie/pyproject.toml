@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iwencai-cookie"
+version = "0.1.0"
+description = "Auto-fetch iWenCai cookies (hexin-v / v) via requests or Playwright"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "requests>=2.28",
+]
+
+[project.optional-dependencies]
+playwright = [
+  "playwright>=1.30",
+]
+
+[project.scripts]
+iwencai-get-cookie = "iwencai_cookie.__main__:main"
+
