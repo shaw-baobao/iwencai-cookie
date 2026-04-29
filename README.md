@@ -1,5 +1,10 @@
 # iwencai-cookie
 
+> ⚡ **最新 CLI**：推荐使用新仓库 [**shaw-baobao/iwencai-cli**](https://github.com/shaw-baobao/iwencai-cli) —— 直接用自然语言选股，返回结构化结果。
+> 本仓库（iwencai-cookie）只负责获取 cookie，已被新 CLI 取代，保留作参考。
+
+---
+
 iWenCai（爱问财）Cookie 自动获取工具。用于自动获取接口常用的 `hexin-v` 或 `v` Cookie，方便在爬取或调用相关接口时复用。
 
 本仓库内的可执行代码位于 `tools/iwencai-cookie` 目录，提供了：
